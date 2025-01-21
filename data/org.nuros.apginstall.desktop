@@ -1,0 +1,35 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+# Application info
+Name=NurOS APG Installer
+GenericName=Package Installer
+Comment=Install NurOS APG packages
+Categories=System;PackageManager;GTK;
+
+# Execution
+TryExec=nuros-apginstall
+Exec=nuros-apginstall %F
+Terminal=false
+StartupNotify=true
+
+# File associations
+MimeType=application/x-apg;
+
+# Display
+Icon=system-software-install
+
+# Metadata
+Keywords=package;installer;apg;nuros;
+X-Desktop-File-Install-Version=0.26
+X-GNOME-UsesNotifications=true
+
+# Translations
+Name[ru]=Установщик пакетов NurOS APG
+Comment[ru]=Установка пакетов NurOS APG
+GenericName[ru]=Установщик пакетов
+
+# Created by
+X-Created-By=AnmiTaliDev
+X-Created-Date=2025-01-21T13:22:40Z
